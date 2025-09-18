@@ -74,7 +74,7 @@ OUTPUT FORMAT:
                 {"role": "user", "content": prompt}
             ],
             temperature=0.75,
-            max_tokens=250
+            max_tokens=1200
         )
         story = response.choices[0].message.content.strip()
         return story
@@ -122,7 +122,8 @@ if user_input:
 
         st.success("✅ Story Ready!")
         st.markdown("### 📖 Your Story:")
-        st.write(story)
+        # st.write(story)
+        st.markdown(story)
 
         # ========== IMAGE GENERATION ==========
         # if st.button("🖼️ Generate Naija-Style Image (DALL·E)"):
