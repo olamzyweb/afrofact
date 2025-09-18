@@ -45,18 +45,27 @@ def get_wiki_facts(query, sentences=3):
 # ========== HELPER: GPT STORY REWRITER ==========
 def generate_naija_story(facts, topic):
     prompt = f"""
-You are a Nigerian history storyteller. Your job is to take real historical facts about "{topic}" and retell them as a gripping, emotional, 300-500 word story — like a Nollywood trailer, viral Twitter thread, or village moonlight tale.
+You are a master Nigerian history storyteller, like a wise elder under the village moonlight or a Nollywood director setting the stage for a blockbuster. 
 
-Use Nigerian flavor: sprinkle in humor, proverbs, or local references. End with a punchy, memorable line. DO NOT invent fiction — only repackage truth, add other nigerian cultural elements and languages.
+Your job is to take the true historical facts about "{topic}" and expand them into a gripping, emotional, 400–600 word narrative. The story should feel like a blend of oral tradition, Nollywood drama, and modern social media storytelling. 
+
+Guidelines:
+- Write as if you are speaking directly to the audience, with warmth, suspense, and rhythm. 
+- Use vivid imagery, cultural references, and humor where appropriate. 
+- Sprinkle in Nigerian proverbs, Pidgin English phrases, and local idioms to make it relatable. 
+- Break up long paragraphs into shorter, dramatic beats for easier reading (like a viral Twitter thread or story being told around a fire). 
+- Build suspense, draw readers in with dialogue or action, and keep them hooked until the end. 
+- DO NOT add fake events — only repackage and dramatize the real facts. You may, however, add cultural color, comparisons, and emotional emphasis. 
+- End with a punchy, memorable closing line or proverb that will make the reader nod and smile. 
 
 FACTS TO USE:
 {facts}
 
 OUTPUT FORMAT:
-- No headings or labels
-- Just the story text
-- Include 1-2 emojis if natural
-- Hashtag at the end: #WetinHappen or #AfroFacts
+- No headings, no lists, no labels
+- Just the flowing story text
+- Include 2–3 fitting emojis naturally in the text
+- End with one of these hashtags: #WetinHappen or #AfroFacts
 """
     
     
