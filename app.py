@@ -30,7 +30,7 @@ st.markdown("### Type a Nigerian place, person, or event → Get the TRUE story 
 st.caption("No fiction. Just facts… with flavor. Made with ❤️ for Nigerian history.")
 
 # ========== INPUT ==========
-user_input = st.text_input("Enter a Nigerian town, person, or landmark (e.g., 'Queen Amina', 'Olumo Rock', 'Ibadan'):", "")
+user_input = st.text_input("Enter a Nigerian town, person, or landmark (e.g., 'Ahmadu bello', 'Olumo Rock', 'Ibadan'):", "")
 
 # ========== HELPER: FETCH WIKI FACTS ==========
 def get_wiki_facts(query, sentences=3):
