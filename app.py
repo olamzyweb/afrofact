@@ -25,9 +25,9 @@ client = Groq(api_key=api_key)
 st.set_page_config(page_title="AfroFacts / Wetin Happen?", page_icon="🇳🇬", layout="centered")
 
 # ========== TITLE & INTRO ==========
-st.title("🇳🇬 AfroFacts / Wetin Happen?")
+st.title("🇳🇬 AfroFacts")
 st.markdown("### Type a Nigerian place, person, or event → Get the TRUE story told like Nollywood 🎬")
-st.caption("No fiction. Just facts… with flavor. Made with ❤️ for Nigerian history.")
+st.caption("No fiction. Just facts… with flavor. Made for Nigerian history.")
 
 # ========== INPUT ==========
 user_input = st.text_input("Enter a Nigerian town, person, or landmark (e.g., 'Ahmadu bello', 'Olumo Rock', 'Ibadan'):", "")
