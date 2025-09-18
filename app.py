@@ -55,7 +55,7 @@ Requirements:
 - Style should flow naturally, like spoken gist, with energy and rhythm.
 - End with a punchy, memorable closing line that feels final, not cut short.
 - Add 1–2 emojis naturally in the story (not forced).
-- End with a hashtag: #WetinHappen or #AfroFacts
+- End with a hashtag:  #AfroFacts
 
 FACTS TO USE:
 {facts}
